@@ -1,8 +1,12 @@
+import React from 'react';
+import CartPage from "./pages/CartPage/CartPage"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <CartPage/>
+    </div>
   )
 }
 
-export default App
+export default App;
