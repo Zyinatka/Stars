@@ -1,0 +1,309 @@
+.contact {
+    width: 1200px;
+    height: 100%;
+    /* border: 3px solid black; */
+    margin: 0 auto;
+}
+
+.contact-p {
+    width: 319px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.contact-p h1 {
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact-left {}
+
+.contact-colors {
+    width: 304px;
+    height: 31px;
+    display: flex;
+    /* border:1px solid red; */
+    margin-top: 53px
+}
+
+.contact-color {
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background: rgb(138, 51, 253);
+}
+
+.contact-color h4 {
+    position: absolute;
+    color: rgb(60, 66, 66);
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-top: -0px;
+    margin-left: 15px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contact-left p {
+    color: rgb(128, 125, 126);
+    font-family: Core Sans C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.contact-orders {
+    margin-left: 35px;
+    width: 225px;
+    height: 100%;
+    /* border:1px solid red */
+}
+
+.contact-logos {
+    width: 134px;
+    height: 22px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contact-logos h2 {
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -0px;
+    margin-left: 17px;
+}
+
+.contact-my-logos {
+    width: 265px;
+    height: 44px;
+    display: flex;
+    margin-bottom: 20px;
+    background: rgb(246, 246, 246);
+    /* border: 1px solid red; */
+    padding-left: 35px;
+    margin-left: -35px;
+    border-radius: 6px;
+}
+
+.contact-my-logos img {
+    width: 25px;
+    height: 27x;
+}
+
+.contact-my-logos h2 {
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.line {
+    position: absolute;
+    width: 2px;
+    height: 44px;
+    background: rgb(60, 66, 66);
+    margin-left: -35px;
+}
+
+
+.contact-right {
+    width: 894px;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-top: 65px;
+
+}
+
+.contact-right-text h1 {
+    width: 183px;
+    height: 31px;
+    color: rgb(60, 66, 66);
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+.contact-right-text p{
+    color: rgb(60, 66, 66);
+    font-family: Core Sans C;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+.contact-infos{
+    /* border:1px solid red; */
+    width: 894px;
+    height: 54px;
+    margin-bottom: 50px;
+}
+.contact-infos p{
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+     
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contact-infos-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -24px;
+}
+.contact-infos-display h1{
+    color: rgb(60, 66, 66);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contact-line{
+    width: 894px;
+    height: 0;
+    border: 1px solid rgb(237, 238, 242);
+    margin-top: 10px;
+}
+
+.contact-between{
+   
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-between p{
+    width: 99px;
+    height: 31px;
+    color: rgb(60, 66, 66);
+    font-family: Core Sans C;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+}
+.contact-between h4{
+    color: rgb(60, 66, 66);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contact-end{
+    width: 895px;
+    height: 569px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.contact-end-info{
+    width: 435px;
+    height: 272px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    background: rgb(246, 246, 246);
+}
+.contact-end-infos{
+    width: 349px;
+    height: 222px;
+    margin: 0 auto;
+}
+.contact-end-infos h1{
+    color: rgb(60, 66, 66);
+    font-family: Causten;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contact-end-infos p{
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contact-button{
+    display: flex;
+}
+.contact-end-infos button{
+    box-sizing: border-box;
+    border: 1px solid rgb(128, 125, 126);
+    border-radius: 8px;
+    padding: 7px 19px 7px 19px;
+    margin-right: 15px;
+}
+.contact-end-infos h3{
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contact-end-end{
+    display: flex;
+}
+.contact-end-line{
+    position: absolute;
+    width: 1px;
+    height: 19px;
+    border-radius: 50px;
+    background: rgb(217, 217, 217);
+    margin-top: 15px;
+    margin-left: 63px;
+}
+.contact-end-end h3{
+    color: rgb(60, 66, 66);
+    font-family: Causten;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 20px;
+}

@@ -1,0 +1,251 @@
+.contact {
+    width: 1200px;
+    height: 100%;
+    /* border: 3px solid black; */
+    margin: 0 auto;
+}
+
+.contact-p {
+    width: 319px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.contact-p h1 {
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact-left {}
+
+.contact-colors {
+    width: 304px;
+    height: 31px;
+    display: flex;
+    /* border:1px solid red; */
+    margin-top: 53px
+}
+
+.contact-color {
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background: rgb(138, 51, 253);
+}
+
+.contact-color h4 {
+    position: absolute;
+    color: rgb(60, 66, 66);
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-top: -0px;
+    margin-left: 15px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contact-left p {
+    color: rgb(128, 125, 126);
+    font-family: Core Sans C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.contact-orders {
+    margin-left: 35px;
+    width: 225px;
+    height: 100%;
+    /* border:1px solid red */
+}
+
+.contact-logos {
+    width: 134px;
+    height: 22px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contact-logos h2 {
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -0px;
+    margin-left: 17px;
+}
+
+.contact-my-logos {
+    width: 265px;
+    height: 44px;
+    display: flex;
+    margin-bottom: 20px;
+    background: rgb(246, 246, 246);
+    /* border: 1px solid red; */
+    padding-left: 35px;
+    margin-left: -35px;
+    border-radius: 6px;
+}
+
+.contact-my-logos img {
+    width: 25px;
+    height: 27x;
+}
+
+.contact-my-logos h2 {
+    color: rgb(128, 125, 126);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.line {
+    position: absolute;
+    width: 2px;
+    height: 44px;
+    background: rgb(60, 66, 66);
+    margin-left: -35px;
+}
+
+.contact-right {
+    width: 894px;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-top: 45px;
+    margin-left: 50px;
+
+}
+
+.contact-right-text h1 {
+    width: 183px;
+    height: 31px;
+    color: rgb(60, 66, 66);
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.contact-right-text p {
+    color: rgb(60, 66, 66);
+    font-family: Core Sans C;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.contact-infos {
+    /* border:1px solid red; */
+    width: 894px;
+    height: 54px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-infos p {
+    color: rgb(60, 66, 66);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-bottom: -0px;
+}
+
+.contact-infos input {
+    border-radius: 7.17px;
+    background: rgb(246, 246, 246);
+    width: 386.3px;
+    height: 54.71px;
+    padding-left: 30px;
+    border: 0px
+}
+
+.contact-infos h1 {
+    color: rgb(60, 66, 66);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact-line {
+    width: 894px;
+    height: 0;
+    border: 1px solid rgb(237, 238, 242);
+    margin-top: 10px;
+}
+
+.contact-big p {
+    color: rgb(60, 66, 66);
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-top: 100px;
+
+}
+
+.contact-big input {
+    width: 895px;
+    height: 149px;
+    border: 0px;
+    border-radius: 7.17px;
+    background: rgb(246, 246, 246);
+}
+.chekbox{
+    display: flex;
+}
+.save{
+    width: 125px;
+    height: 48px;
+    border-radius: 7.17px;
+    background: rgb(138, 51, 253);
+    color:white;
+    margin-right: 30px;
+}
+.cansel{
+    border-radius: 7.17px;
+    background: rgb(246, 246, 246);
+    width: 141px;
+    height: 48px;
+    color:rgb(128, 125, 126);
+
+}
