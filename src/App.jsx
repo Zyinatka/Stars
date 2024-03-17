@@ -1,7 +1,10 @@
+import ProductPage from "./pages/ProductDetailPage/ProductPage"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <ProductPage />
+    </div>
   )
 }
 

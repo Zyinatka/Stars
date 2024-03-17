@@ -1,0 +1,242 @@
+.product{
+    margin: 0 auto;
+    width: 1440px;
+
+}
+
+.product_img{
+    
+}
+
+.product_text{
+    color: rgb(60, 66, 66);
+font-family: Core Sans C;
+font-size: 34px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 2%;
+text-align: left;
+}
+
+.top{
+    display: flex;
+    gap: 108px;
+}
+
+
+
+.shop1{
+    display: flex; 
+    gap: 10px;
+        
+}
+
+.shop1 h4{
+    color: rgb(128, 125, 126);
+font-family: Causten-Medium;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.select{
+    width: 270px;
+    height: 86px;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+}
+
+.guide{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.guide .guidep{
+    color: rgb(63, 70, 70);
+font-family: Causten-SemiBold;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.guide h6{
+    color: rgb(128, 125, 126);
+font-family: Causten-Medium;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+.title{
+    width: 166px;
+height: 41px;
+}
+
+.title>h2{
+    color: rgb(60, 66, 66);
+font-family: Causten;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.title>p{
+    color: rgb(128, 125, 126);
+font-family: Causten;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;   
+}
+
+.price{ 
+    width: 82.31px;
+height: 36.58px;
+border-radius: 8px;
+background: rgb(246, 246, 246);
+color: rgb(60, 66, 66);
+font-family: Causten;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.colors{
+        margin-top: 60px;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+}
+
+.colors h4{
+    /* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+color: rgb(63, 70, 70);
+font-family: Causten-SemiBold;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.colors_dis{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 26px;
+}
+
+
+.add-to-cart{
+   gap: 30px;
+margin-top: 40px ;
+display: flex;
+}
+
+.addcart{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 40px 12px 40px;
+border-radius: 8px;
+
+background: rgb(138, 51, 253);
+color: rgb(255, 255, 255);
+font-family: Causten-SemiBold;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+
+.addprice{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 40px 12px 40px;
+box-sizing: border-box;
+border: 1px solid rgb(60, 66, 66);
+border-radius: 8px;
+border: none;
+
+}
+
+.simular{
+    margin-top: 164px;
+}
+
+.simular-grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 2fr);
+}
+.simular-title{
+    width: 281.38px;
+height: 41px;
+left: 0%;
+right: 0.22%;
+top: 90.7%;
+    display: flex;
+    margin-top: 35px;
+}
+
+.simular-product{
+    
+}
+
+.stars{
+    display: flex;
+    gap: 20px;
+}
+
+.stars p{
+    color: rgb(128, 125, 126);
+font-family: Causten;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.wish{
+    position: absolute;
+width: 32.36px;
+height: 32.36px;
+
+
+}
